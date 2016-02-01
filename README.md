@@ -10,3 +10,8 @@
 # describe what I am doing at the different parts of the code. 
 # There is also a code book that describes the variables in the final files so it is clear what each variable is. This would be the
 # best place to go to see what the columns are in the final files.
+
+# The final dataset that is produced is called completedata.  This file contains a row for each set of observations.  The key
+# variables are the subjects, activity (1 of 6 activities (see codebook for details), and the mean and standard deviation for
+# the 3 sets of 3 metrics found using the eletronic device.  There are bodyAcc(XYZ), bodyGyro(XYZ) and totalAcc(XYZ).  The mean and
+# standard deviations are based on the 128 readings for each line.
