@@ -2,3 +2,26 @@
 
 
 # Format of the final dataset
+expdata       - this is the placeholder for which record this represents
+subjects      - This is a number that indicates which subject the readings were taken from.  They range from 1-30
+activity      - This is the activity that the readings refer to. There are 6: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
+bodyAccXMean  - Data indicating the average bodyAccX measurement
+bodyAccXStdv  - Data indicating the standard deviation of bodyAccX measurement
+bodyAccYMean  - Data indicating the average bodyAccY measurement
+bodyAccYStdv  - Data indicating the standard deviation of bodyAccY measurement
+bodyAccZMean  - Data indicating the average bodyAccZ measurement
+bodyAccZStdv  - Data indicating the standard deviation of bodyAccZ measurement
+bodyGyroXMean - Data indicating the average bodyGyroX measurement
+bodyGyroXStdv - Data indicating the standard deviation of bodyGyroX measurement
+bodyGyroYMean - Data indicating the average bodyGyroY measurement
+bodyGyroYStdv - Data indicating the standard deviation of bodyGyroY measurement
+bodyGyroZMean - Data indicating the average bodyGyroZ measurement
+bodyGyroZStdv - Data indicating the standard deviation of bodyGyroZ measurement
+totalAccXMean - Data indicating the average totalAccX measurement
+totalAccXStdv - Data indicating the standard deviation of totalAccX measurement
+totalAccYMean - Data indicating the average totalAccY measurement
+totalAccYStdv - Data indicating the standard deviation of totalAccY measurement
+totalAccZMean - Data indicating the average totalAccZ measurement
+totalAccZStdv - Data indicating the standard deviation of totalAccZ measurement
+SubjectActivity - This combines the subject and activity variables into a factor to use for the additional datafile needed in part 5
+
